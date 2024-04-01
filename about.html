@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>The Revolutionary Transistor Radio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <header>
+        <h1>About the Transistor Radio</h1>
+        <section class="header">
+            <nav>
+                   
+                    <div class="nav-links" id="navLinks">
+                        <i class="fa fa-times" onclick="hideMenu()" ></i>
+                        <ul>
+                            <li><a href="index.html">HOME</a></li>
+                            <li><a href="about.html">ABOUT</a></li>
+                            <li><a href="products.html">PRODUCTS</a></li>
+                            <li><a href="contact.html">CONTACT</a></li>
+                        </ul>
+                    </div>
+                    <i class="fa fa-bars" onclick="showMenu()"> </i>
+            </nav>
+    </header>
+    <main>
+        <section >
+            <img src="images/radio.jpg" alt="About the Transistor Radio" id="image">
+            <h2>What Makes Our Transistor Radio Great?</h2>
+            <p>Introducing the revolutionary Transistor Radio – a marvel of 20th-century technology! Our transistor radios are compact, lightweight, and bring a new level of convenience to your entertainment experience.</p>
+          
+            <p><b>Key Features:</b></p>
+            <ul>
+                <li><strong> Take your favorite radio shows wherever you go.</strong></li>
+                <li><strong> Crystal-Clear Sound:</strong> Enjoy high-quality audio with minimal interference.</li>
+                <li><strong> Battery Efficiency:</strong> Requires minimal power for extended usage.</li>
+                <li><strong> Durability:</strong> Built to last with top-notch craftsmanship.</li>
+            </ul>
+            <p>At Transistor Radios Inc., we're proud to be at the forefront of innovation, delivering cutting-edge technology to your fingertips. Our commitment to quality and excellence has made our transistor radios the go-to choice for radio enthusiasts worldwide.</p>
+        </section>
+    </main>
+     <!---------------------------Footer ------------------>
+<section class="footer">
+    <h4> About Us</h4>
+    <p> Radio refers to the technology of using radio waves to transmit information, such as sound,<br> by modulating electromagnetic waves with the help of a transmitter and receiving the information with a radio receiver.</p>
+<div class="icons">
+<i class="fa-brands fa-facebook"></i>
+<i class="fa-brands fa-square-twitter"></i>
+<i class="fa-brands fa-square-instagram"></i>
+<i class="fa-solid fa-link"></i>
+</div>
+<p>Made with <i class="fa-regular fa-heart"></i> by Rimpal,Riddi,Raman</p>
+</section>
+
+<footer>
+    <p>&copy; 19XX Transistor Radios Inc.</p>
+</footer>
+
+    <script>
+        // javascript for toggle menu-----------------------------------------------------------
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+    </script>
+   
+</body>
+
+</html>

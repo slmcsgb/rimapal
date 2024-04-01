@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>The Revolutionary Transistor Radio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <h1>Our Transistor Radios</h1>
+        <section class="header">
+            <nav>
+                   
+                    <div class="nav-links" id="navLinks">
+                        <i class="fa fa-times" onclick="hideMenu()" ></i>
+                        <ul>
+                            <li><a href="index.html">HOME</a></li>
+                            <li><a href="about.html">ABOUT</a></li>
+                            <li><a href="products.html">PRODUCTS</a></li>
+                            <li><a href="contact.html">CONTACT</a></li>
+                        </ul>
+                    </div>
+                    <i class="fa fa-bars" onclick="showMenu()"> </i>
+            </nav>
+    </header>
+    <main>
+        <section id="products">
+            <h2>Explore Our Range of Radios</h2>
+            <div class="product-container">
+                <!-- Product 1 -->
+                <div class="product">
+                    <img src="images/radio1.jpg" alt="Radio 1">
+                    <p class="product-name">Vintage Model A</p>
+                    <p class="product-price">$49.99</p>
+                </div>
+
+                <!-- Product 2 -->
+                <div class="product">
+                    <img src="images/radio2.jpg" alt="Radio 2">
+                    <p class="product-name">Dainamic Deluxe</p>
+                    <p class="product-price">$79.99</p>
+                </div>
+
+                <!-- Product 3 -->
+                <div class="product">
+                    <img src="images/radio3.jpg" alt="Radio 3">
+                    <p class="product-name">Nipco Transistor Radio</p>
+                    <p class="product-price">$99.99</p>
+                </div>
+
+                <!-- Product 4 -->
+                <div class="product">
+                    <img src="images/radio4.jpg" alt="Radio 4">
+                    <p class="product-name">Classic Edition</p>
+                    <p class="product-price">$89.99</p>
+                </div>
+
+                <!-- Product 5 -->
+                <div class="product">
+                    <img src="images/radio5.jpg" alt="Radio 5">
+                    <p class="product-name">Vintage Arvin Portable </p>
+                    <p class="product-price">$59.99</p>
+                </div>
+
+                <!-- Product 6 -->
+                <div class="product">
+                    <img src="images/radio6.jpg" alt="Radio 6">
+                    <p class="product-name">Vintage Realistic </p>
+                    <p class="product-price">$39.99</p>
+                </div>
+
+                <!-- Product 7 -->
+                <div class="product">
+                    <img src="images/radio7.jpg" alt="Radio 7">
+                    <p class="product-name">Vintage RCA Pockette</p>
+                    <p class="product-price">$69.99</p>
+                </div>
+
+                <!-- Product 8 -->
+                <div class="product">
+                    <img src="images/radio8.jpg" alt="Radio 8">
+                    <p class="product-name">Vintage Holiday Deluxe </p>
+                    <p class="product-price">$58.99</p>
+                </div>
+
+                <!-- Product 9 -->
+                <div class="product"> 
+                    <img src="images/radio9.jpg" alt="Radio 9">
+                    <p class="product-name">Vintage Zephyr </p>
+                    <p class="product-price">$79.99</p>
+                </div>
+
+                <!-- Product 10 -->
+                <div class="product">
+                    <img src="images/radio10.jpg" alt="Radio 10">
+                    <p class="product-name">Emerson Transistor Radio</p>
+                    <p class="product-price">$67.99</p>
+                </div>
+
+                <!-- Product 11 -->
+                <div class="product">
+                    <img src="images/radio11.jpg" alt="Radio 11">
+                    <p class="product-name">Vintage Regency TR-1G </p>
+                    <p class="product-price">$62.99</p>
+                </div>
+
+                <!-- Product 12 -->
+                <div class="product">
+                    <img src="images/radio12.jpg" alt="Radio 12">
+                    <p class="product-name">Vintage Design</p>
+                    <p class="product-price">$49.99</p>
+                </div>
+
+                <!-- Product 13 -->
+                <div class="product">
+                    <img src="images/radio13.jpg" alt="Radio 13">
+                    <p class="product-name">Classic Design</p>
+                    <p class="product-price">$65.99</p>
+                </div>
+
+                <!-- Product 14 -->
+                <div class="product">
+                    <img src="images/radio14.jpg" alt="Radio 14">
+                    <p class="product-name">Vintage Melodic Princess </p>
+                    <p class="product-price">$73.99</p>
+                </div>
+
+                <!-- Product 15 -->
+                <div class="product">
+                    <img src="images/radio15.jpg" alt="Radio 15">
+                    <p class="product-name">Vintage Zenith Royal </p>
+                    <p class="product-price">$92.99</p>
+                </div>
+
+            </div>
+        </section>
+    </main>
+     <!---------------------------Footer ------------------>
+<section class="footer">
+    <h4> About Us</h4>
+    <p> Radio refers to the technology of using radio waves to transmit information, such as sound,<br> by modulating electromagnetic waves with the help of a transmitter and receiving the information with a radio receiver.</p>
+<div class="icons">
+<i class="fa-brands fa-facebook"></i>
+<i class="fa-brands fa-square-twitter"></i>
+<i class="fa-brands fa-square-instagram"></i>
+<i class="fa-solid fa-link"></i>
+</div>
+<p>Made with <i class="fa-regular fa-heart"></i> by Rimpal,Riddi,Raman</p>
+</section>
+
+<footer>
+    <p>&copy; 19XX Transistor Radios Inc.</p>
+</footer>
+
+    <script>
+        // javascript for toggle menu-----------------------------------------------------------
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+    </script>
+</body>
+
+</html>

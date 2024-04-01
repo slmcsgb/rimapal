@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>The Revolutionary Transistor Radio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <header>
+        <h1>Contact Us and Place Your Order</h1>
+        <section class="header">
+            <nav>
+                    
+                    <div class="nav-links" id="navLinks">
+                        <i class="fa fa-times" onclick="hideMenu()" ></i>
+                        <ul>
+                            <li><a href="index.html">HOME</a></li>
+                            <li><a href="about.html">ABOUT</a></li>
+                            <li><a href="products.html">PRODUCTS</a></li>
+                            <li><a href="contact.html">CONTACT</a></li>
+                        </ul>
+                    </div>
+                    <i class="fa fa-bars" onclick="showMenu()"> </i>
+            </nav>
+    </header>
+    <main>
+        <section id="contact-info">
+            <h2>Get in Touch</h2>
+            <p>If you have any questions or would like to place an order, please contact us using the information below:</p>
+            <p>Email: info@transistorradiosinc.com<br>Phone: 1-800-XXX-XXXX</p>
+        </section>
+        <section id="order-form">
+            <h2>Place Your Order</h2>
+            <p>Use the form below to place your order. We'll get back to you as soon as possible to confirm your purchase.</p>
+            <!-- Add an order form here -->
+        </section>
+    </main>
+
+
+    <h1>Contact Us</h1>
+    </section>
+   <!-------------contact us   ------------------------>
+   <section class="location">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2885.893156785829!2d-79.38641302389168!3d43.67119185126704!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b3536309f8137%3A0xa212cc2534929ade!2s120%20Bloor%20St%20E%2C%20Toronto%2C%20ON%20M4W%201B7!5e0!3m2!1sen!2sca!4v1702625610280!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+   </section>
+
+   <section class="contact-us">
+    <div class="row">
+       <div class="contact-col">
+        <div>
+            <i class="fa fa-house"></i>
+            <span> 
+                <h5>120 Bloor Street</h5>
+                <p>Toronto, Ontario, Canada</p>
+            </span>
+        </div>
+        <div>
+            <i class="fa fa-phone"></i>
+            <span> 
+                <h5>+1 9056582241</h5>
+                <p>Monday to Saturday, 10AM to 6PM</p>
+            </span>
+        </div>
+        <div>
+            <i class="fa fa-envelope"></i>
+            <span> 
+                <h5>transistorradiosinc@gmail.com</h5>
+                <p>Email us your query</p>
+            </span>
+        </div>
+       </div>
+       <div class="contact-col">
+        <form action="mail.php" method="post">
+            
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name"placeholder="Enter Your Name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter Your Email" required>
+
+                <label for="itemName">Item Name:</label>
+                <input type="text" id="itemName" name="itemName" placeholder="Enter Your ItemName" required>
+
+                <label for="colorPreference">Color Preference:</label>
+                <input type="text" id="colorPreference" name="colorPreference" placeholder="Enter Your Color Preference" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" placeholder="Enter Your Additional Message" required></textarea>
+
+            <button type="submit" class="hero-btn red-btn">Send Message</button>
+        </form>
+       </div>
+    </div>
+
+   </section>
+    <!---------------------------Footer ------------------>
+<section class="footer">
+    <h4> About Us</h4>
+    <p> Radio refers to the technology of using radio waves to transmit information, such as sound,<br> by modulating electromagnetic waves with the help of a transmitter and receiving the information with a radio receiver.</p>
+<div class="icons">
+<i class="fa-brands fa-facebook"></i>
+<i class="fa-brands fa-square-twitter"></i>
+<i class="fa-brands fa-square-instagram"></i>
+<i class="fa-solid fa-link"></i>
+</div>
+<p>Made with <i class="fa-regular fa-heart"></i> by Rimpal,Riddi,Raman</p>
+</section>
+
+<footer>
+    <p>&copy; 19XX Transistor Radios Inc.</p>
+</footer>
+
+    <script>
+        // javascript for toggle menu-----------------------------------------------------------
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+    </script>
+
+   
+</body>
+</html>
